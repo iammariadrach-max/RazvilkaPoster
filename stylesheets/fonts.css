@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "TT Gertika Trial";
+  src: url("../fonts/TT_Gertika_Trial_Bold.ttf") format("truetype"),
+    url("../fonts/TT_Gertika_Trial_Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "TT Gertika Trial";
+  src: url("../fonts/TT_Gertika_Trial_Regular.ttf") format("truetype"),
+    url("../fonts/TT_Gertika_Trial_Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
