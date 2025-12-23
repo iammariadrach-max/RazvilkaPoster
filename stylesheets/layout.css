@@ -1,3 +1,189 @@
 * {
   box-sizing: border-box;
 }
+body {
+  display: block;
+  font-family: "TT Gertika Trial";
+  background-color: black;
+  position: relative;
+}
+/* body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/maket.svg");
+  width: 100%;
+  height: 267vw;
+  opacity: 0.2;
+} */
+/* 1 секция */
+
+.logoSection {
+  display: flex;
+  width: 100%;
+  height: 19vw;
+  padding: 1.27% 1.27%;
+}
+
+.logo {
+  width: 100%;
+}
+
+/* 2 секция */
+
+.stickers {
+  position: relative;
+  width: 100%;
+  height: 41vw;
+  margin: 0 auto;
+}
+
+.orangeFlower {
+  width: 20%;
+  position: absolute;
+  top: 23.5%;
+  left: 18.2%;
+}
+.pinkStar {
+  width: 20%;
+  position: absolute;
+  top: 5%;
+  left: 67%;
+}
+.orangeStar {
+  width: 14.5%;
+  position: absolute;
+  top: 47%;
+  left: 64.5%;
+}
+.elephant {
+  width: 18.5%;
+  position: absolute;
+  top: 15%;
+  left: 8.5%;
+}
+.vase {
+  width: 22%;
+  position: absolute;
+  top: 43%;
+  left: 73.6%;
+}
+.world {
+  width: 18.5%;
+  position: absolute;
+  top: 44.5%;
+  left: 30.2%;
+}
+.dateRectangle {
+  width: 19.4%;
+  position: absolute;
+  top: 65.5%;
+  left: 13%;
+}
+.date {
+  position: absolute;
+  font-size: 2.6vw;
+  font-weight: 500;
+  font-style: normal;
+  top: 72.6%;
+  left: 15.63%;
+  transform: rotate(-11.33deg);
+}
+.brahman {
+  width: 18.9%;
+  position: absolute;
+  top: 46.3%;
+  left: 0.5%;
+}
+.hat {
+  width: 24.5%;
+  position: absolute;
+  top: 22%;
+  left: 71.5%;
+}
+.divaliRectangle {
+  width: 19%;
+  position: absolute;
+  top: 34%;
+  left: 38.3%;
+}
+.divali {
+  position: absolute;
+  font-size: 2.6vw;
+  font-weight: 500;
+  font-style: normal;
+  top: 43.5%;
+  left: 41.7%;
+  transform: rotate(20.04deg);
+}
+.festRectangle {
+  width: 19%;
+  position: absolute;
+  top: 11.4%;
+  left: 32.86%;
+}
+.fest {
+  position: absolute;
+  font-size: 2.6vw;
+  font-weight: 500;
+  font-style: normal;
+  top: 19.6%;
+  left: 36.2%;
+  transform: rotate(-17.14deg);
+}
+.fireRectangle {
+  width: 19%;
+  position: absolute;
+  top: 27.5%;
+  left: 50.2%;
+}
+.fire {
+  position: absolute;
+  font-size: 2.6vw;
+  font-weight: 500;
+  font-style: normal;
+  top: 31.69%;
+  left: 55.9%;
+  transform: rotate(2.55deg);
+}
+.indiaRectangle {
+  width: 19%;
+  position: absolute;
+  top: 52%;
+  left: 49.4%;
+}
+.india {
+  position: absolute;
+  font-size: 2.6vw;
+  font-weight: 500;
+  font-style: normal;
+  top: 63.2%;
+  left: 54.7%;
+  transform: rotate(-23.82deg);
+}
+.lotus {
+  width: 16%;
+  position: absolute;
+  top: -14%;
+  left: 27.5%;
+}
+/* 3 секция */
+
+.marquee {
+  position: relative;
+  width: 100%;
+  height: 8vw;
+  margin: 0 auto;
+  background-color: #eb8ffc;
+  overflow: hidden;
+}
+.runStroke1 {
+  overflow: hidden;
+  padding-top: 1.6%;
+}
+.runStroke1 p {
+  animation: marquee 6s infinite linear;
+  width: 200%;
+  font-size: 4.45vw;
+}
