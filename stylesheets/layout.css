@@ -290,6 +290,9 @@ body {
   position: absolute;
   top: 48%;
 }
+
+/* 4 секция */
+
 /* .pointMovement {
   position: relative;
   width: 100%;
@@ -301,25 +304,44 @@ body {
 } */
 .pointMovement {
   position: relative;
-  width: 100%;
-  height: 40.4vw;
+  width: 98.5%;
+  height: 41vw;
+  background-repeat: no-repeat;
 
-  padding: 1.27%;
-
+  background-size: 98.6%;
   background-image: url("../images/backgroundGradient.svg");
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
+  margin: 2% 0% 2% 1.3%;
 }
-.lineAndPoint {
+/* .lineAndPoint {
   width: 100%;
   height: 100%;
 
   position: relative;
-}
+} */
 .way {
-  width: 98%;
+  width: 97.5%;
   height: 100%;
   /* object-fit: contain; */
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 7.2% 2% 0% 2%;
+}
+.point {
+  position: absolute;
+  top: 38%;
+  left: 3.2%;
+  width: 2.5%;
+}
+
+/* 5 секция */
+
+.hindiSection {
+  position: relative;
+  width: 98.5%;
+  height: 37vw;
+  background-image: url("../images/hindi.svg");
+  background-size: 98.8%;
+  /* background-position: center; */
+  margin: 2% 0% 2% 1.3%;
+  background-repeat: no-repeat;
 }
