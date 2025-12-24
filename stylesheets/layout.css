@@ -37,48 +37,49 @@ body {
   width: 100%;
   height: 41vw;
   margin: 0 auto;
+  margin-bottom: -6vw;
 }
 
 .orangeFlower {
   width: 20%;
   position: absolute;
-  top: 23.5%;
+  top: 19.5%;
   left: 18.2%;
 }
 .pinkStar {
   width: 20%;
   position: absolute;
-  top: 5%;
+  top: 1%;
   left: 67%;
 }
 .orangeStar {
   width: 14.5%;
   position: absolute;
-  top: 47%;
+  top: 43%;
   left: 64.5%;
 }
 .elephant {
   width: 18.5%;
   position: absolute;
-  top: 15%;
+  top: 9%;
   left: 8.5%;
 }
 .vase {
   width: 22%;
   position: absolute;
-  top: 43%;
+  top: 37%;
   left: 73.6%;
 }
 .world {
   width: 18.5%;
   position: absolute;
-  top: 44.5%;
+  top: 40.5%;
   left: 30.2%;
 }
 .dateRectangle {
   width: 19.4%;
   position: absolute;
-  top: 65.5%;
+  top: 58.5%;
   left: 13%;
 }
 .date {
@@ -86,26 +87,26 @@ body {
   font-size: 2.6vw;
   font-weight: 500;
   font-style: normal;
-  top: 72.6%;
+  top: 65.6%;
   left: 15.63%;
   transform: rotate(-11.33deg);
 }
 .brahman {
   width: 18.9%;
   position: absolute;
-  top: 46.3%;
+  top: 41.3%;
   left: 0.5%;
 }
 .hat {
   width: 24.5%;
   position: absolute;
-  top: 22%;
+  top: 16%;
   left: 71.5%;
 }
 .divaliRectangle {
   width: 19%;
   position: absolute;
-  top: 34%;
+  top: 30%;
   left: 38.3%;
 }
 .divali {
@@ -113,14 +114,14 @@ body {
   font-size: 2.6vw;
   font-weight: 500;
   font-style: normal;
-  top: 43.5%;
+  top: 39.5%;
   left: 41.7%;
   transform: rotate(20.04deg);
 }
 .festRectangle {
   width: 19%;
   position: absolute;
-  top: 11.4%;
+  top: 7.4%;
   left: 32.86%;
 }
 .fest {
@@ -128,14 +129,14 @@ body {
   font-size: 2.6vw;
   font-weight: 500;
   font-style: normal;
-  top: 19.6%;
+  top: 15.6%;
   left: 36.2%;
   transform: rotate(-17.14deg);
 }
 .fireRectangle {
   width: 19%;
   position: absolute;
-  top: 27.5%;
+  top: 23.5%;
   left: 50.2%;
 }
 .fire {
@@ -143,14 +144,14 @@ body {
   font-size: 2.6vw;
   font-weight: 500;
   font-style: normal;
-  top: 31.69%;
+  top: 27.69%;
   left: 55.9%;
   transform: rotate(2.55deg);
 }
 .indiaRectangle {
   width: 19%;
   position: absolute;
-  top: 52%;
+  top: 48%;
   left: 49.4%;
 }
 .india {
@@ -158,14 +159,14 @@ body {
   font-size: 2.6vw;
   font-weight: 500;
   font-style: normal;
-  top: 63.2%;
+  top: 59.2%;
   left: 54.7%;
   transform: rotate(-23.82deg);
 }
 .lotus {
   width: 16%;
   position: absolute;
-  top: -14%;
+  top: -16%;
   left: 27.5%;
 }
 /* 3 секция */
@@ -186,4 +187,139 @@ body {
   animation: marquee 6s infinite linear;
   width: 200%;
   font-size: 4.45vw;
+}
+
+/* 4 секция */
+
+/* .shapes {
+  display: flex;
+  width: 100%;
+  height: 35.5vw;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.greenSquare {
+  width: 27.3%;
+}
+.orangeSquare {
+  width: 27.3%;
+}
+.pinkSquare {
+  width: 27.3%;
+}
+.greenSquare2 {
+  width: 27.3%;
+}
+.leftSquares {
+  display: flex;
+  flex-direction: row;
+}
+.rightsquares {
+  display: flex;
+  flex-direction: row;
+}
+.squares {
+  display: flex;
+
+  flex-direction: column;
+  flex: 1;
+}
+.gradientAndRunstroke {
+  display: flex;
+  flex-direction: column;
+}
+.gradient {
+  width: 100%;
+
+  height: 22.4vw;
+  background-image: url("../images/gradient.svg");
+  background-size: cover;
+}
+.pinkrunStroke {
+  width: 100%;
+} */
+
+.shapes {
+  width: 100%;
+  margin: 0 auto;
+  height: 35.5vw;
+  position: relative;
+}
+
+.shapesRow {
+  display: flex;
+  align-items: flex-start;
+}
+.squares {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftSquares,
+.rightsquares {
+  display: flex;
+  flex-direction: row;
+}
+.gradientAndRunstroke {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.greenSquare,
+.orangeSquare,
+.pinkSquare,
+.greenSquare2 {
+  width: 50%;
+}
+
+.gradient {
+  width: 100%;
+  height: 22.4vw;
+
+  background-image: url("../images/gradient.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.pinkrunStroke {
+  width: 65%;
+  position: absolute;
+  top: 48%;
+}
+/* .pointMovement {
+  position: relative;
+  width: 100%;
+  height: 40.4vw;
+  background-image: url("../images/backgroundGradient.svg");
+  background-size: cover;
+  margin-left: 1.27%;
+  margin-top: 1.27%;
+} */
+.pointMovement {
+  position: relative;
+  width: 100%;
+  height: 40.4vw;
+
+  padding: 1.27%;
+
+  background-image: url("../images/backgroundGradient.svg");
+  background-size: cover;
+  background-position: center;
+}
+.lineAndPoint {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+.way {
+  width: 98%;
+  height: 100%;
+  /* object-fit: contain; */
+  padding-left: 2%;
+  padding-right: 2%;
 }
