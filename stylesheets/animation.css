@@ -1,8 +1,56 @@
+/* 3 секция */
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+/* 4 секция */
+
+@keyframes pinkrunStroke-running-animation {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* 7 секция */
+
+@keyframes brahman1-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+@keyframes elephant1-rotation {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+@keyframes sun1-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes vase1-rotation {
+  0% {
+    transform: rotate(-12deg);
+  }
+  100% {
+    transform: rotate(2deg);
   }
 }
