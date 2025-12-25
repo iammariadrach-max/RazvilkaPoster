@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  .stickers {
+    height: 109vw;
+  }
+  /* body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../images/maket768.svg");
+    width: 100%;
+    height: 648.8vw;
+    opacity: 0.2;
+  } */
+  .orangeFlower {
+    width: 33%;
+    top: 40.5%;
+    left: 11.2%;
+  }
+  .pinkStar {
+    width: 34.2%;
+    top: 54%;
+    left: 66%;
+  }
+  .world {
+    width: 29.5%;
+    top: 56.5%;
+    left: 32.2%;
+  }
+  .marquee {
+    height: 11.6vw;
+  }
+  .runStroke1 {
+    padding-top: 2.5%;
+  }
+  .runStroke1 p {
+    font-size: 7vw;
+  }
+  /* 4 секция */
+
+  .gradientAndRunstroke {
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  .shapesRow {
+    flex-wrap: wrap;
+  }
+
+  .shapes {
+    height: 64vw;
+    flex-direction: column;
+  }
+  .squares {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+  }
+  /* не менялось еще */
+  .greenSquare,
+  .orangeSquare,
+  .pinkSquare,
+  .greenSquare2 {
+    width: 70%;
+  }
+  .gradient {
+    height: 24.3vw;
+  }
+  .pinkStroke {
+    margin-top: -8%;
+    /* height: 22vw; */
+  }
+}

@@ -23,7 +23,7 @@ body {
   display: flex;
   width: 100%;
   height: 19vw;
-  padding: 1.27% 1.27%;
+  padding: 1.25% 1.25%;
 }
 
 .logo {
@@ -45,6 +45,7 @@ body {
   position: absolute;
   top: 19.5%;
   left: 18.2%;
+  animation: orangeFlower 3s ease 1 reverse;
 }
 .pinkStar {
   width: 20%;
@@ -52,12 +53,7 @@ body {
   top: 1%;
   left: 67%;
 }
-.orangeStar {
-  width: 14.5%;
-  position: absolute;
-  top: 43%;
-  left: 64.5%;
-}
+
 .elephant {
   width: 18.5%;
   position: absolute;
@@ -76,13 +72,20 @@ body {
   top: 40.5%;
   left: 30.2%;
 }
-.dateRectangle {
+/* с текстом */
+/* .dateRectangle {
   width: 19.4%;
   position: absolute;
   top: 58.5%;
   left: 13%;
+} */
+.dateRectangle {
+  width: 20.5%;
+  position: absolute;
+  top: 58.5%;
+  left: 12%;
 }
-.date {
+/* .date {
   position: absolute;
   font-size: 2.6vw;
   font-weight: 500;
@@ -90,7 +93,7 @@ body {
   top: 65.6%;
   left: 15.63%;
   transform: rotate(-11.33deg);
-}
+} */
 .brahman {
   width: 18.9%;
   position: absolute;
@@ -103,13 +106,20 @@ body {
   top: 16%;
   left: 71.5%;
 }
-.divaliRectangle {
+/* с текстом */
+/* .divaliRectangle {
   width: 19%;
   position: absolute;
   top: 30%;
   left: 38.3%;
+} */
+.divaliRectangle {
+  width: 22%;
+  position: absolute;
+  top: 30%;
+  left: 38.3%;
 }
-.divali {
+/* .divali {
   position: absolute;
   font-size: 2.6vw;
   font-weight: 500;
@@ -117,14 +127,22 @@ body {
   top: 39.5%;
   left: 41.7%;
   transform: rotate(20.04deg);
-}
-.festRectangle {
+} */
+/* с текстом */
+/* .festRectangle { 
   width: 19%;
   position: absolute;
   top: 7.4%;
   left: 32.86%;
+} */
+
+.festRectangle {
+  width: 22%;
+  position: absolute;
+  top: 0.4%;
+  left: 31.5%;
 }
-.fest {
+/* .fest {
   position: absolute;
   font-size: 2.6vw;
   font-weight: 500;
@@ -132,14 +150,21 @@ body {
   top: 15.6%;
   left: 36.2%;
   transform: rotate(-17.14deg);
-}
-.fireRectangle {
+} */
+/* с текстом */
+/* .fireRectangle {
   width: 19%;
   position: absolute;
   top: 23.5%;
   left: 50.2%;
+} */
+.fireRectangle {
+  width: 23%;
+  position: absolute;
+  top: 10%;
+  left: 47.2%;
 }
-.fire {
+/* .fire {
   position: absolute;
   font-size: 2.6vw;
   font-weight: 500;
@@ -147,14 +172,27 @@ body {
   top: 27.69%;
   left: 55.9%;
   transform: rotate(2.55deg);
-}
-.indiaRectangle {
+} */
+/* с текстом */
+/* .indiaRectangle {
   width: 19%;
   position: absolute;
   top: 48%;
   left: 49.4%;
+} */
+.indiaRectangle {
+  width: 20.5%;
+  position: absolute;
+  top: 47%;
+  left: 48%;
 }
-.india {
+.orangeStar {
+  width: 14.5%;
+  position: absolute;
+  top: 43%;
+  left: 64.5%;
+}
+/* .india {
   position: absolute;
   font-size: 2.6vw;
   font-weight: 500;
@@ -162,13 +200,82 @@ body {
   top: 59.2%;
   left: 54.7%;
   transform: rotate(-23.82deg);
-}
+} */
 .lotus {
   width: 16%;
   position: absolute;
   top: -16%;
   left: 27.5%;
 }
+
+.orangeFlower,
+.pinkStar,
+.orangeStar,
+.elephant,
+.vase,
+.hat,
+.world,
+.lotus,
+.brahman,
+.dateRectangle,
+.Rectangle2,
+.date,
+.divaliRectangle,
+.divali,
+.festRectangle,
+/* .fest, */
+.fireRectangle,
+.fire,
+.indiaRectangle,
+.india {
+  animation: fallFromTop 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+.orangeFlower {
+  --shift-x: -40px;
+  animation-delay: 0.1s;
+}
+
+.pinkStar {
+  --shift-x: 60px;
+  animation-delay: 0.25s;
+}
+
+.orangeStar {
+  --shift-x: -20px;
+  animation-delay: 0.35s;
+}
+
+.elephant {
+  --shift-x: 30px;
+  animation-delay: 0.15s;
+}
+
+.vase {
+  --shift-x: -60px;
+  animation-delay: 0.4s;
+}
+
+.world {
+  --shift-x: 20px;
+  animation-delay: 0.3s;
+}
+
+.brahman {
+  --shift-x: -50px;
+  animation-delay: 0.45s;
+}
+
+.hat {
+  --shift-x: 40px;
+  animation-delay: 0.5s;
+}
+
+.lotus {
+  --shift-x: 0px;
+  animation-delay: 0.6s;
+}
+
 /* 3 секция */
 
 .marquee {
@@ -190,56 +297,6 @@ body {
 }
 
 /* 4 секция */
-
-/* .shapes {
-  display: flex;
-  width: 100%;
-  height: 35.5vw;
-  margin: 0 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.greenSquare {
-  width: 27.3%;
-}
-.orangeSquare {
-  width: 27.3%;
-}
-.pinkSquare {
-  width: 27.3%;
-}
-.greenSquare2 {
-  width: 27.3%;
-}
-.leftSquares {
-  display: flex;
-  flex-direction: row;
-}
-.rightsquares {
-  display: flex;
-  flex-direction: row;
-}
-.squares {
-  display: flex;
-
-  flex-direction: column;
-  flex: 1;
-}
-.gradientAndRunstroke {
-  display: flex;
-  flex-direction: column;
-}
-.gradient {
-  width: 100%;
-
-  height: 22.4vw;
-  background-image: url("../images/gradient.svg");
-  background-size: cover;
-}
-.pinkrunStroke {
-  width: 100%;
-} */
 
 .shapes {
   width: 100%;
@@ -294,23 +351,7 @@ body {
 .gradient:hover {
   background-position: 0% 100%;
 }
-/* .pinkStroke {
-  margin-top: -7%;
-  white-space: nowrap;
-}
-.pinkrunStroke {
-  display: flex;
-  
-  width: max-content;
-  
-  top: 49.4%;
-  white-space: nowrap;
-  
-  animation: pinkrunStroke-running-animation 5s infinite linear;
-}
-.pinkStroke {
-  overflow: hidden;
-} */
+
 .pinkStroke {
   overflow: hidden;
   width: 100%;
@@ -341,26 +382,19 @@ body {
 } */
 .pointMovement {
   position: relative;
-  width: 98.5%;
+  width: 98.4%;
   height: 41vw;
   background-repeat: no-repeat;
-
   background-size: 98.6%;
   background-image: url("../images/backgroundGradient.svg");
   /* background-size: cover; */
   /* background-position: center; */
-  margin: 2% 0% 2% 1.3%;
+  margin: 2% 0% 2% 1.5%;
 }
-/* .lineAndPoint {
-  width: 100%;
-  height: 100%;
 
-  position: relative;
-} */
 .way {
   width: 97%;
   height: 100%;
-  /* object-fit: contain; */
   padding: 7.3% 2.5% 0% 4.5%;
 }
 .point {
@@ -368,17 +402,125 @@ body {
   top: 33.5%;
   left: 4.4%;
   width: 2.5%;
+  animation: point 2s linear infinite;
 }
-
+.poojaText1 h1 {
+  font-size: 2.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 9%;
+  left: 4.4%;
+}
+.poojaText1 p {
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 16.5%;
+  left: 4.4%;
+}
+.point2 {
+  position: absolute;
+  top: 29.3%;
+  left: 57.4%;
+  width: 2.5%;
+  animation: point2 2s linear infinite;
+}
+.poojaText2 h1 {
+  font-size: 2.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 9%;
+  left: 57.4%;
+}
+.poojaText2 p {
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 16.5%;
+  left: 57.4%;
+}
+.point3 {
+  position: absolute;
+  top: 68.5%;
+  left: 74.8%;
+  width: 2.5%;
+  animation: point3 2s linear infinite;
+}
+.poojaText3 h1 {
+  font-size: 2.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 76.5%;
+  left: 74.8%;
+}
+.poojaText3 p {
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 84%;
+  left: 74.8%;
+}
+.point4 {
+  position: absolute;
+  top: 66.5%;
+  left: 27.4%;
+  width: 2.5%;
+  animation: point4 2s linear infinite;
+}
+.poojaText4 h1 {
+  font-size: 2.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 76.5%;
+  left: 27.4%;
+}
+.poojaText4 p {
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 84%;
+  left: 27.4%;
+}
+.point5 {
+  position: absolute;
+  top: 60%;
+  left: 4.4%;
+  width: 2.5%;
+  animation: point5 2s linear infinite;
+}
+.poojaText5 h1 {
+  font-size: 2.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 76.5%;
+  left: 4.4%;
+}
+.poojaText5 p {
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 84%;
+  left: 4.4%;
+}
 /* 5 секция */
 
 .hindiSection {
   position: relative;
-  width: 98.5%;
+  width: 98.3%;
   height: 37vw;
   background-image: url("../images/hindi.svg");
   background-size: 98.8%;
-  margin: 2% 0% 2% 1.3%;
+  margin: 2% 0% 2% 1.5%;
   background-repeat: no-repeat;
 }
 .brahman1 {
@@ -414,4 +556,121 @@ body {
   top: 27%;
   left: 80%;
   animation: vase1-rotation 2s ease-in-out infinite alternate;
+}
+
+/* 8 секция */
+
+.marquee2 {
+  position: relative;
+  width: 100%;
+  height: 8vw;
+  margin: 0 auto;
+  background-color: #aef261;
+  overflow: hidden;
+}
+.greenRunStroke {
+  display: flex;
+}
+.greenRunStroke p {
+  white-space: nowrap;
+  animation: marquee 6s infinite linear;
+  width: 200%;
+  font-size: 4.45vw;
+  padding-top: 1.4%;
+}
+
+/* подвал */
+
+.footer {
+  margin-top: 1%;
+  width: 100%;
+  height: 23.8vw;
+  position: relative;
+  padding: 0 1.5% 0 1.5%;
+}
+.pinkRectangle1 {
+  width: 24%;
+  position: absolute;
+  top: 15%;
+  left: 1.5%;
+}
+/* .pinkRectangle1Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+} */
+.text1 {
+  font-size: 3.1vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 33.4%;
+  left: 4.1%;
+  transform: rotate(-17.63deg);
+}
+.endorangestar {
+  width: 14%;
+  position: absolute;
+  top: 15%;
+  left: 22.1%;
+  transition: transform 0.3s ease;
+}
+.endorangestar:hover {
+  transform: translateY(-10px);
+}
+.pinkRectangle2 {
+  width: 18.6%;
+  position: absolute;
+  top: 29.2%;
+  left: 32.4%;
+}
+.text2 {
+  font-size: 3.1vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 49%;
+  left: 35.6%;
+  transform: rotate(25.4deg);
+}
+.pinkRectangle3 {
+  width: 19.3%;
+  position: absolute;
+  top: 11%;
+  left: 49.5%;
+}
+.text3 {
+  font-size: 3.1vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 25.4%;
+  left: 53.2%;
+  transform: rotate(-15.8deg);
+}
+.endworld {
+  width: 15.2%;
+  position: absolute;
+  top: 24%;
+  left: 58%;
+  transition: transform 0.3s ease;
+}
+.endworld:hover {
+  transform: translateY(10px);
+}
+.pinkRectangle4 {
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 68.5%;
+}
+.text4 {
+  font-size: 3.1vw;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  top: 52.6%;
+  left: 71.8%;
+  transform: rotate(12.02deg);
 }

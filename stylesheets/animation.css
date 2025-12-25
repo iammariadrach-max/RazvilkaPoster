@@ -1,3 +1,37 @@
+/* 1 секция */
+
+/* @keyframes orangeFlower {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-60%);
+  }
+
+  100% {
+    transform: translateX(-60%);
+  }
+} */
+
+@keyframes fallFromTop {
+  /* 0% {
+    transform: translateY(-120vh) translateX(var(--shift-x));
+    opacity: 0;
+  } */
+
+  0% {
+    transform: translateY(-120vw) translateX(var(--shift-x));
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+}
+
 /* 3 секция */
 
 @keyframes marquee {
@@ -20,6 +54,75 @@
     transform: translateX(-50%);
   }
 }
+
+/* 6 секция */
+
+@keyframes point {
+  0% {
+    transform: translate(0, 0);
+  }
+  5% {
+    transform: translate(3%, 3%);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  15% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(0);
+  }
+  45% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  55% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(0);
+  }
+  65% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  85% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(0);
+  }
+  95% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 /* 7 секция */
 
 @keyframes brahman1-rotation {
@@ -54,3 +157,25 @@
     transform: rotate(2deg);
   }
 }
+/* подвал */
+
+/* @keyframes endorangestar {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
