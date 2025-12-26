@@ -22,12 +22,15 @@ body {
 .logoSection {
   display: flex;
   width: 100%;
-  height: 19vw;
-  padding: 1.25% 1.25%;
+  padding: 1.25%;
 }
 
 .logo {
   width: 100%;
+  display: block;
+}
+.logo414 {
+  display: none;
 }
 
 /* 2 секция */
@@ -74,10 +77,15 @@ body {
 }
 /* с текстом */
 /* .dateRectangle {
-  width: 19.4%;
   position: absolute;
   top: 58.5%;
   left: 13%;
+  padding: 2.2vw;
+  background-color: #aef261;
+  border-radius: 3.4vw;
+  font-size: 2.4vw;
+  font-weight: 500;
+  transform: rotate(-11.33deg);
 } */
 .dateRectangle {
   width: 20.5%;
@@ -114,10 +122,10 @@ body {
   left: 38.3%;
 } */
 .divaliRectangle {
-  width: 22%;
+  width: 22vw;
   position: absolute;
-  top: 30%;
-  left: 38.3%;
+  top: 11.5vw;
+  left: 37.3vw;
 }
 /* .divali {
   position: absolute;
@@ -137,10 +145,10 @@ body {
 } */
 
 .festRectangle {
-  width: 22%;
+  width: 23vw;
   position: absolute;
-  top: 0.4%;
-  left: 31.5%;
+  top: -0.5vw;
+  left: 31.6vw;
 }
 /* .fest {
   position: absolute;
@@ -159,10 +167,10 @@ body {
   left: 50.2%;
 } */
 .fireRectangle {
-  width: 23%;
+  width: 23.5vw;
   position: absolute;
-  top: 10%;
-  left: 47.2%;
+  top: 3vw;
+  left: 48.2vw;
 }
 /* .fire {
   position: absolute;
@@ -218,52 +226,71 @@ body {
 .lotus,
 .brahman,
 .dateRectangle,
-.Rectangle2,
-.date,
 .divaliRectangle,
-.divali,
 .festRectangle,
-/* .fest, */
 .fireRectangle,
-.fire,
-.indiaRectangle,
-.india {
+.indiaRectangle {
   animation: fallFromTop 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
   opacity: 0;
 }
+.indiaRectangle {
+  --shift-x: -1px;
+  animation-delay: 0.1s;
+}
+.divaliRectangle {
+  --shift-x: -1px;
+  animation-delay: 0.17s;
+}
+.festRectangle {
+  --shift-x: -1px;
+  animation-delay: 0.3s;
+}
+.fireRectangle {
+  --shift-x: -1px;
+  animation-delay: 0.25s;
+}
 .orangeFlower {
   --shift-x: -40px;
-  animation-delay: 0.1s;
+  animation-delay: 0.2s;
 }
 
 .pinkStar {
-  --shift-x: 60px;
-  animation-delay: 0.25s;
+  --shift-x: 20px;
+  animation-delay: 0.7s;
 }
 
 .orangeStar {
   --shift-x: -20px;
   animation-delay: 0.35s;
 }
-
-.elephant {
+.dateRectangle {
+  --shift-x: -1px;
+  animation-delay: 0.1s;
+}
+/* .elephant {
   --shift-x: 30px;
   animation-delay: 0.15s;
+} */
+.elephant {
+  --shift-x: 30px;
+  animation-delay: 0.4s;
 }
-
 .vase {
   --shift-x: -60px;
   animation-delay: 0.4s;
 }
 
-.world {
+/* .world {
   --shift-x: 20px;
   animation-delay: 0.3s;
+} */
+.world {
+  --shift-x: 20px;
+  animation-delay: 0.1s;
 }
-
 .brahman {
-  --shift-x: -50px;
-  animation-delay: 0.45s;
+  --shift-x: -20px;
+  animation-delay: 0.3s;
 }
 
 .hat {
@@ -271,29 +298,30 @@ body {
   animation-delay: 0.5s;
 }
 
-.lotus {
+/* .lotus {
   --shift-x: 0px;
   animation-delay: 0.6s;
+} */
+.lotus {
+  --shift-x: 0px;
+  animation-delay: 0.8s;
 }
-
 /* 3 секция */
 
 .marquee {
   position: relative;
   width: 100%;
-  height: 8vw;
+
   margin: 0 auto;
   background-color: #eb8ffc;
   overflow: hidden;
 }
-.runStroke1 {
-  overflow: hidden;
-  padding-top: 1.6%;
-}
+
 .runStroke1 p {
   animation: marquee 6s infinite linear;
   width: 200%;
-  font-size: 4.45vw;
+  font-size: 4.13vw;
+  padding: 1.4% 0;
 }
 
 /* 4 секция */
@@ -356,7 +384,10 @@ body {
   overflow: hidden;
   width: 100%;
   white-space: nowrap;
-  margin-top: -7%;
+  margin-top: -7.3%;
+}
+.pinkStroke-track img {
+  width: 52.4vw;
 }
 
 .pinkStroke-track {
@@ -398,12 +429,27 @@ body {
   padding: 7.3% 2.5% 0% 4.5%;
 }
 .point {
+  display: block;
   position: absolute;
   top: 33.5%;
   left: 4.4%;
   width: 2.5%;
-  animation: point 2s linear infinite;
+  animation: point 14s linear infinite;
 }
+.point6 {
+  display: block;
+  position: absolute;
+  top: 33.5%;
+  left: 4.4%;
+  width: 2.5%;
+}
+/* .poojaText1 {
+  animation: colorChange 1s ease-in-out;
+}
+.poojaText2 {
+  animation: colorChange2 1s ease-in-out;
+  animation-delay: 4s;
+} */
 .poojaText1 h1 {
   font-size: 2.8vw;
   font-weight: 500;
@@ -514,6 +560,177 @@ body {
 }
 /* 5 секция */
 
+.trace {
+  height: 47.98vw;
+  width: 100%;
+  position: relative;
+}
+.textAndgreenTrace1 {
+  position: absolute;
+  top: 3vw;
+  left: 3vw;
+  width: 30.8vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/greenTrace1.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndgreenTrace1 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndgreenTrace2 {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  width: 33.7vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/greenTrace2.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndgreenTrace2 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndorangeTrace1 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 17.9vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/orangeTrace1.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndorangeTrace1 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndpinkTrace4 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 28.1vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/pinkTrace4.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndpinkTrace4 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndgreenTrace3 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 26.5vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/greenTrace3.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndgreenTrace3 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndorangeTrace3 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 19.3vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/orangeTrace3.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndorangeTrace3 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndpinkTrace2 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 21.9vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/orangeTrace2.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndpinkTrace2 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndpinkTrace3 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 33.8vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/pinkTrace3.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndpinkTrace3 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndorangeTrace2 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 22.8vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/orangeTrace2.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndorangeTrace2 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndorangeTrace4 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 20.9vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/orangeTrace4.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndorangeTrace4 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+.textAndpinkTrace1 {
+  position: absolute;
+  top: 7vw;
+  left: 7vw;
+  width: 20.9vw;
+  /* height: 13.2vw; */
+  background-image: url("../images/pinkTrace1.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.textAndpinkTrace1 p {
+  font-size: 3vw;
+  font-weight: 900;
+  font-style: normal;
+}
+/* 6 секция */
 .hindiSection {
   position: relative;
   width: 98.3%;
@@ -563,20 +780,17 @@ body {
 .marquee2 {
   position: relative;
   width: 100%;
-  height: 8vw;
+
   margin: 0 auto;
   background-color: #aef261;
   overflow: hidden;
 }
-.greenRunStroke {
-  display: flex;
-}
+
 .greenRunStroke p {
-  white-space: nowrap;
   animation: marquee 6s infinite linear;
   width: 200%;
-  font-size: 4.45vw;
-  padding-top: 1.4%;
+  font-size: 4.96vw;
+  padding: 1.4% 0;
 }
 
 /* подвал */

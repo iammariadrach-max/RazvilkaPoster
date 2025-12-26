@@ -1,18 +1,5 @@
 /* 1 секция */
 
-/* @keyframes orangeFlower {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-60%);
-  }
-
-  100% {
-    transform: translateX(-60%);
-  }
-} */
-
 @keyframes fallFromTop {
   /* 0% {
     transform: translateY(-120vh) translateX(var(--shift-x));
@@ -61,68 +48,149 @@
   0% {
     transform: translate(0, 0);
   }
-  5% {
-    transform: translate(3%, 3%);
+  3% {
+    transform: translate(5vw, 3vw);
   }
-  10% {
-    transform: translateX(0);
+  6% {
+    transform: translate(10vw, -3vw);
+  }
+  9% {
+    transform: translate(15vw, 3vw);
+  }
+  12% {
+    transform: translate(21vw, -8vw);
   }
   15% {
-    transform: translateX(0);
+    transform: translate(25vw, 3vw);
   }
-  20% {
-    transform: translateX(0);
+  18% {
+    transform: translate(33vw, -4vw);
   }
-  25% {
-    transform: translateX(0);
+  21% {
+    transform: translate(36vw, 4vw);
   }
+  24% {
+    transform: translate(42vw, -9vw);
+  }
+  27% {
+    transform: translate(47vw, 3vw);
+  }
+
   30% {
-    transform: translateX(0);
+    transform: translate(51vw, 2);
   }
-  35% {
-    transform: translateX(0);
+
+  33% {
+    transform: translate(53vw, -2vw);
   }
-  40% {
-    transform: translateX(0);
+  /* 11 */
+  36% {
+    transform: translate(58vw, -2vw);
+  }
+  39% {
+    transform: translate(60vw, -4vw);
+  }
+  42% {
+    transform: translate(63vw, -1vw);
   }
   45% {
-    transform: translateX(0);
+    transform: translate(66vw, -4vw);
+  }
+
+  48% {
+    transform: translate(69vw, -1vw);
   }
   50% {
-    transform: translateX(0);
+    transform: translate(72vw, -2vw);
   }
-  55% {
-    transform: translateX(0);
+
+  /* финиш  */
+  54% {
+    transform: translate(82vw, -2vw);
+  }
+  56% {
+    transform: translate(88vw, 5vw);
+  }
+  58% {
+    transform: translate(88vw, 10vw);
   }
   60% {
-    transform: translateX(0);
+    transform: translate(84vw, 15vw);
+  }
+  62% {
+    transform: translate(79vw, 15vw);
   }
   65% {
-    transform: translateX(0);
+    transform: translate(74vw, 5vw);
   }
-  70% {
-    transform: translateX(0);
+  68% {
+    transform: translate(70vw, 15vw);
   }
-  75% {
-    transform: translateX(0);
+  71% {
+    transform: translate(66vw, 5vw);
+  }
+  74% {
+    transform: translate(60vw, 15vw);
+  }
+  77% {
+    transform: translate(53vw, 5vw);
   }
   80% {
-    transform: translateX(0);
+    transform: translate(46vw, 15vw);
   }
-  85% {
-    transform: translateX(0);
+  83% {
+    transform: translate(40vw, 10vw);
+  }
+  86% {
+    transform: translate(31vw, 10vw);
+  }
+  88% {
+    transform: translate(25vw, 15vw);
   }
   90% {
-    transform: translateX(0);
+    transform: translate(19vw, 5vw);
+  }
+  92% {
+    transform: translate(17vw, 13vw);
+  }
+  93% {
+    transform: translate(15vw, 9vw);
   }
   95% {
-    transform: translateX(0);
+    transform: translate(10vw, 13vw);
+  }
+  97% {
+    transform: translate(7vw, 9vw);
+  }
+  99% {
+    transform: translate(5vw, 11vw);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translate(0vw, 11vw);
   }
 }
-
+/* @keyframes colorChange {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #aef261;
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes colorChange2 {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #eb8ffc;
+  }
+  100% {
+    color: black;
+  }
+} */
 /* 7 секция */
 
 @keyframes brahman1-rotation {
