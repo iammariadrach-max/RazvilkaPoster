@@ -75,33 +75,14 @@ body {
   top: 40.5%;
   left: 30.2%;
 }
-/* с текстом */
-/* .dateRectangle {
-  position: absolute;
-  top: 58.5%;
-  left: 13%;
-  padding: 2.2vw;
-  background-color: #aef261;
-  border-radius: 3.4vw;
-  font-size: 2.4vw;
-  font-weight: 500;
-  transform: rotate(-11.33deg);
-} */
+
 .dateRectangle {
   width: 20.5%;
   position: absolute;
   top: 58.5%;
   left: 12%;
 }
-/* .date {
-  position: absolute;
-  font-size: 2.6vw;
-  font-weight: 500;
-  font-style: normal;
-  top: 65.6%;
-  left: 15.63%;
-  transform: rotate(-11.33deg);
-} */
+
 .brahman {
   width: 18.9%;
   position: absolute;
@@ -114,13 +95,7 @@ body {
   top: 16%;
   left: 71.5%;
 }
-/* с текстом */
-/* .divaliRectangle {
-  width: 19%;
-  position: absolute;
-  top: 30%;
-  left: 38.3%;
-} */
+
 .divaliRectangle {
   width: 22vw;
   position: absolute;
@@ -150,44 +125,14 @@ body {
   top: -0.5vw;
   left: 31.6vw;
 }
-/* .fest {
-  position: absolute;
-  font-size: 2.6vw;
-  font-weight: 500;
-  font-style: normal;
-  top: 15.6%;
-  left: 36.2%;
-  transform: rotate(-17.14deg);
-} */
-/* с текстом */
-/* .fireRectangle {
-  width: 19%;
-  position: absolute;
-  top: 23.5%;
-  left: 50.2%;
-} */
+
 .fireRectangle {
   width: 23.5vw;
   position: absolute;
   top: 3vw;
   left: 48.2vw;
 }
-/* .fire {
-  position: absolute;
-  font-size: 2.6vw;
-  font-weight: 500;
-  font-style: normal;
-  top: 27.69%;
-  left: 55.9%;
-  transform: rotate(2.55deg);
-} */
-/* с текстом */
-/* .indiaRectangle {
-  width: 19%;
-  position: absolute;
-  top: 48%;
-  left: 49.4%;
-} */
+
 .indiaRectangle {
   width: 20.5%;
   position: absolute;
@@ -200,15 +145,7 @@ body {
   top: 43%;
   left: 64.5%;
 }
-/* .india {
-  position: absolute;
-  font-size: 2.6vw;
-  font-weight: 500;
-  font-style: normal;
-  top: 59.2%;
-  left: 54.7%;
-  transform: rotate(-23.82deg);
-} */
+
 .lotus {
   width: 16%;
   position: absolute;
@@ -311,7 +248,6 @@ body {
 .marquee {
   position: relative;
   width: 100%;
-
   margin: 0 auto;
   background-color: #eb8ffc;
   overflow: hidden;
@@ -399,18 +335,195 @@ body {
 .pinkStroke-track img {
   flex-shrink: 0;
 }
+/* 5 секция */
 
-/* 4 секция */
-
-/* .pointMovement {
-  position: relative;
+.trace {
+  height: 53vw;
   width: 100%;
-  height: 40.4vw;
-  background-image: url("../images/backgroundGradient.svg");
-  background-size: cover;
-  margin-left: 1.27%;
-  margin-top: 1.27%;
-} */
+  position: relative;
+}
+
+.trace2 {
+  transform-origin: bottom center;
+}
+
+.trace2 p {
+  font-size: 3.8vw;
+  font-weight: 900;
+}
+.textAndgreenTrace1 {
+  animation: textAndgreenTrace1 5s linear infinite;
+}
+.textAndgreenTrace2 {
+  animation: textAndgreenTrace2 5s ease infinite;
+}
+.textAndorangeTrace1 {
+  animation: textAndorangeTrace1 5s ease infinite;
+}
+.textAndpinkTrace3 {
+  animation: textAndpinkTrace3 5s ease infinite;
+}
+.textAndpinkTrace4 {
+  animation: textAndpinkTrace4 5s ease infinite;
+}
+.textAndgreenTrace3 {
+  animation: textAndgreenTrace3 5s ease infinite;
+}
+.textAndorangeTrace3 {
+  animation: textAndorangeTrace3 5s ease infinite;
+}
+.textAndpinkTrace2 {
+  animation: textAndpinkTrace2 5s ease infinite;
+}
+.textAndorangeTrace2 {
+  animation: textAndorangeTrace2 5s ease infinite;
+}
+.textAndorangeTrace4 {
+  animation: textAndorangeTrace4 5s ease infinite;
+}
+.textAndpinkTrace1 {
+  animation: textAndpinkTrace1 5s ease infinite;
+}
+
+.textAndgreenTrace1 {
+  position: absolute;
+  top: 7vw;
+  left: 4vw;
+  width: 30.8vw;
+}
+.greenTrace1 p {
+  position: absolute;
+  top: 7vw;
+  left: 4vw;
+  animation: greenTrace1-p 5s linear infinite;
+}
+.textAndgreenTrace2 {
+  position: absolute;
+  top: 26vw;
+  left: 17vw;
+  width: 33.7vw;
+}
+
+.greenTrace2 p {
+  position: absolute;
+  top: 26vw;
+  left: 20vw;
+  animation: greenTrace2-p 5s linear infinite;
+}
+.orangeTrace1 p {
+  position: absolute;
+  top: 5vw;
+  right: 26vw;
+  animation: orangeTrace1-p 5s linear infinite reverse;
+}
+
+.textAndorangeTrace1 {
+  position: absolute;
+  top: 3vw;
+  right: 26vw;
+  width: 17.9vw;
+}
+.textAndpinkTrace3 {
+  position: absolute;
+  top: 40vw;
+  left: 18vw;
+  width: 33.8vw;
+}
+.pinkTrace3 p {
+  position: absolute;
+  top: 40.5vw;
+  left: 21vw;
+  animation: pinkTrace3-p 5s linear infinite;
+}
+.textAndpinkTrace4 {
+  position: absolute;
+  top: 34vw;
+  left: 52vw;
+  width: 28.1vw;
+}
+.pinkTrace4 p {
+  position: absolute;
+  top: 35vw;
+  left: 63vw;
+  animation: pinkTrace4-p 5s linear infinite;
+}
+.textAndgreenTrace3 {
+  position: absolute;
+  top: 12vw;
+  left: 69vw;
+  width: 26.5vw;
+}
+.greenTrace3 p {
+  position: absolute;
+  top: 12vw;
+  left: 69vw;
+  animation: greenTrace3-p 5s linear infinite;
+}
+.textAndorangeTrace3 {
+  position: absolute;
+  top: 21vw;
+  left: 47vw;
+  width: 19.3vw;
+}
+.orangeTrace3 p {
+  position: absolute;
+  top: 21vw;
+  left: 47vw;
+  animation: orangeTrace3-p 5s linear infinite reverse;
+}
+.textAndpinkTrace2 {
+  position: absolute;
+  top: 20vw;
+  right: 15vw;
+  width: 21.9vw;
+}
+.pinkTrace2 p {
+  position: absolute;
+  top: 20vw;
+  right: 16vw;
+  animation: pinkTrace2-p 5s linear infinite;
+}
+.textAndorangeTrace2 {
+  position: absolute;
+  top: 29vw;
+  left: 3vw;
+  width: 22.8vw;
+}
+.orangeTrace2 p {
+  position: absolute;
+  top: 29vw;
+  left: 3vw;
+  animation: orangeTrace2-p 5s linear infinite reverse;
+}
+.textAndorangeTrace4 {
+  position: absolute;
+  top: 29vw;
+  right: 4vw;
+  width: 22.9vw;
+}
+.orangeTrace4 p {
+  position: absolute;
+  top: 31vw;
+  right: 4vw;
+  animation: orangeTrace4-p 5s linear infinite reverse;
+}
+.textAndpinkTrace1 {
+  position: absolute;
+  top: 13vw;
+  left: 24vw;
+  width: 29vw;
+}
+.pinkTrace1 p {
+  position: absolute;
+  top: 13vw;
+  left: 24vw;
+  animation: pinkTrace1-p 5s linear infinite;
+}
+/* 6 секция */
+
+.lineAndPoint {
+  display: block;
+}
 .pointMovement {
   position: relative;
   width: 98.4%;
@@ -558,179 +671,8 @@ body {
   top: 84%;
   left: 4.4%;
 }
-/* 5 секция */
 
-.trace {
-  height: 47.98vw;
-  width: 100%;
-  position: relative;
-}
-.textAndgreenTrace1 {
-  position: absolute;
-  top: 3vw;
-  left: 3vw;
-  width: 30.8vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/greenTrace1.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndgreenTrace1 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndgreenTrace2 {
-  position: absolute;
-  top: 5vw;
-  left: 5vw;
-  width: 33.7vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/greenTrace2.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndgreenTrace2 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndorangeTrace1 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 17.9vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/orangeTrace1.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndorangeTrace1 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndpinkTrace4 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 28.1vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/pinkTrace4.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndpinkTrace4 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndgreenTrace3 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 26.5vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/greenTrace3.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndgreenTrace3 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndorangeTrace3 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 19.3vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/orangeTrace3.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndorangeTrace3 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndpinkTrace2 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 21.9vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/orangeTrace2.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndpinkTrace2 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndpinkTrace3 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 33.8vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/pinkTrace3.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndpinkTrace3 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndorangeTrace2 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 22.8vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/orangeTrace2.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndorangeTrace2 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndorangeTrace4 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 20.9vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/orangeTrace4.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndorangeTrace4 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-.textAndpinkTrace1 {
-  position: absolute;
-  top: 7vw;
-  left: 7vw;
-  width: 20.9vw;
-  /* height: 13.2vw; */
-  background-image: url("../images/pinkTrace1.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.textAndpinkTrace1 p {
-  font-size: 3vw;
-  font-weight: 900;
-  font-style: normal;
-}
-/* 6 секция */
+/* 7 секция */
 .hindiSection {
   position: relative;
   width: 98.3%;
@@ -790,7 +732,8 @@ body {
   animation: marquee 6s infinite linear;
   width: 200%;
   font-size: 4.96vw;
-  padding: 1.4% 0;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
 }
 
 /* подвал */
@@ -808,12 +751,7 @@ body {
   top: 15%;
   left: 1.5%;
 }
-/* .pinkRectangle1Text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-} */
+
 .text1 {
   font-size: 3.1vw;
   font-weight: 500;

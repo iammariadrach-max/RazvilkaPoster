@@ -41,7 +41,352 @@
     transform: translateX(-50%);
   }
 }
+/* 5 секция */
 
+@keyframes greenTrace1-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 5vw);
+  }
+  50% {
+    transform: translate(10vw, 5vw);
+  }
+  75% {
+    transform: translate(-1vw, 5vw);
+  }
+  100% {
+    transform: translate(0vw, 8vw);
+  }
+}
+@keyframes greenTrace2-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 3vw);
+  }
+  50% {
+    transform: translate(-5vw, 3vw);
+  }
+  75% {
+    transform: translate(-1vw, 3vw);
+  }
+  100% {
+    transform: translate(0vw, 8vw);
+  }
+}
+@keyframes orangeTrace1-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 3vw);
+  }
+  50% {
+    transform: translate(-5vw, 3vw);
+  }
+  75% {
+    transform: translate(-1vw, 3vw);
+  }
+  100% {
+    transform: translate(0vw, 6vw);
+  }
+}
+@keyframes pinkTrace3-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 2.5vw);
+  }
+  46% {
+    transform: translate(-3vw, 2.5vw);
+  }
+  70% {
+    transform: translate(0vw, 2.5vw);
+  }
+  85% {
+    transform: translate(0vw, 5.5vw);
+  }
+  100% {
+    transform: translate(5vw, 5.5vw);
+  }
+}
+@keyframes greenTrace3-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  23% {
+    transform: translate(0vw, 3vw);
+  }
+  45% {
+    transform: translate(7vw, 3vw);
+  }
+  70% {
+    transform: translate(-1vw, 3vw);
+  }
+  80% {
+    transform: translate(0vw, 5vw);
+  }
+  100% {
+    transform: translate(15vw, 5vw);
+  }
+}
+@keyframes orangeTrace3-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 8vw);
+  }
+  50% {
+    transform: translate(4vw, 8vw);
+  }
+  75% {
+    transform: translate(-1vw, 9vw);
+  }
+
+  100% {
+    transform: translate(0vw, 6vw);
+  }
+}
+@keyframes pinkTrace2-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 3vw);
+  }
+  50% {
+    transform: translate(-3vw, 3vw);
+  }
+  75% {
+    transform: translate(-1vw, 3vw);
+  }
+  100% {
+    transform: translate(0vw, 6vw);
+  }
+}
+@keyframes orangeTrace2-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  50% {
+    transform: translate(0vw, 2vw);
+  }
+  100% {
+    transform: translate(2vw, 5vw);
+  }
+}
+@keyframes orangeTrace4-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 3vw);
+  }
+  50% {
+    transform: translate(-3vw, 3vw);
+  }
+  75% {
+    transform: translate(-1vw, 3vw);
+  }
+  100% {
+    transform: translate(0vw, 4vw);
+  }
+}
+@keyframes pinkTrace1-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 4.5vw);
+  }
+  50% {
+    transform: translate(8vw, 4.5vw);
+  }
+  75% {
+    transform: translate(-1vw, 4.5vw);
+  }
+
+  100% {
+    transform: translate(0vw, 6vw);
+  }
+}
+@keyframes pinkTrace4-p {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  25% {
+    transform: translate(0vw, 3vw);
+  }
+  50% {
+    transform: translate(-5vw, 3vw);
+  }
+  75% {
+    transform: translate(-1vw, 3vw);
+  }
+  100% {
+    transform: translate(1vw, 6vw);
+  }
+}
+@keyframes textAndgreenTrace1 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.4);
+  }
+  60% {
+    transform: scaleY(0.36);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndgreenTrace2 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.6);
+  }
+  60% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndorangeTrace1 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.6);
+  }
+  60% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndpinkTrace3 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.6);
+  }
+  60% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndgreenTrace3 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.4);
+  }
+  60% {
+    transform: scaleY(0.36);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes textAndorangeTrace3 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.6);
+  }
+  60% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndpinkTrace2 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.5);
+  }
+  60% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndorangeTrace2 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.7);
+  }
+  60% {
+    transform: scaleY(0.6);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndorangeTrace4 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.4);
+  }
+  60% {
+    transform: scaleY(0.35);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndpinkTrace1 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.8);
+  }
+  60% {
+    transform: scaleY(0.7);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes textAndpinkTrace4 {
+  0% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.6);
+  }
+  60% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
 /* 6 секция */
 
 @keyframes point {
