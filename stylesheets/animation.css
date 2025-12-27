@@ -1,11 +1,6 @@
 /* 1 секция */
 
 @keyframes fallFromTop {
-  /* 0% {
-    transform: translateY(-120vh) translateX(var(--shift-x));
-    opacity: 0;
-  } */
-
   0% {
     transform: translateY(-120vw) translateX(var(--shift-x));
     opacity: 0;
@@ -514,28 +509,7 @@
     transform: translate(0vw, 11vw);
   }
 }
-/* @keyframes colorChange {
-  0% {
-    color: black;
-  }
-  50% {
-    color: #aef261;
-  }
-  100% {
-    color: black;
-  }
-}
-@keyframes colorChange2 {
-  0% {
-    color: black;
-  }
-  50% {
-    color: #eb8ffc;
-  }
-  100% {
-    color: black;
-  }
-} */
+
 /* 7 секция */
 
 @keyframes brahman1-rotation {
@@ -570,25 +544,3 @@
     transform: rotate(2deg);
   }
 }
-/* подвал */
-
-/* @keyframes endorangestar {
-  0% {
-    transform: translateX(0);
-  }
-  20% {
-    transform: translateX(-5px);
-  }
-  40% {
-    transform: translateX(5px);
-  }
-  60% {
-    transform: translateX(-5px);
-  }
-  80% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */

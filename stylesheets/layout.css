@@ -7,16 +7,7 @@ body {
   background-color: black;
   position: relative;
 }
-/* body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("../images/maket.svg");
-  width: 100%;
-  height: 267vw;
-  opacity: 0.2;
-} */
+
 /* 1 секция */
 
 .logoSection {
@@ -204,10 +195,7 @@ body {
   --shift-x: -1px;
   animation-delay: 0.1s;
 }
-/* .elephant {
-  --shift-x: 30px;
-  animation-delay: 0.15s;
-} */
+
 .elephant {
   --shift-x: 30px;
   animation-delay: 0.4s;
@@ -217,10 +205,6 @@ body {
   animation-delay: 0.4s;
 }
 
-/* .world {
-  --shift-x: 20px;
-  animation-delay: 0.3s;
-} */
 .world {
   --shift-x: 20px;
   animation-delay: 0.1s;
@@ -235,10 +219,6 @@ body {
   animation-delay: 0.5s;
 }
 
-/* .lotus {
-  --shift-x: 0px;
-  animation-delay: 0.6s;
-} */
 .lotus {
   --shift-x: 0px;
   animation-delay: 0.8s;
@@ -531,8 +511,6 @@ body {
   background-repeat: no-repeat;
   background-size: 98.6%;
   background-image: url("../images/backgroundGradient.svg");
-  /* background-size: cover; */
-  /* background-position: center; */
   margin: 2% 0% 2% 1.5%;
 }
 
@@ -688,13 +666,8 @@ body {
   top: 49%;
   left: -1.5%;
   animation: brahman1-rotation 2s ease-in-out infinite alternate;
-  /* transform: scale(1);
-  transition: transform 0.3 ease-in-out; */
-  /* animation: scale 2s infinite linear; */
 }
-/* .brahman1:hover {
-  transform: scale(1.1);
-} */
+
 .elephant1 {
   width: 13.5%;
   position: absolute;
